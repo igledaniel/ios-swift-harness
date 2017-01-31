@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB703E01E414F88003EAC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB703DF1E414F88003EAC93 /* AppDelegate.swift */; };
+		DBB703E21E414F88003EAC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB703E11E414F88003EAC93 /* ViewController.swift */; };
+		DBB703E51E414F88003EAC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB703E31E414F88003EAC93 /* Main.storyboard */; };
+		DBB703E71E414F88003EAC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB703E61E414F88003EAC93 /* Assets.xcassets */; };
+		DBB703EA1E414F88003EAC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB703E81E414F88003EAC93 /* LaunchScreen.storyboard */; };
+		DBB703F51E414F88003EAC93 /* ios_swift_harnessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB703F41E414F88003EAC93 /* ios_swift_harnessTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB703F11E414F88003EAC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB703D41E414F88003EAC93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB703DB1E414F88003EAC93;
+			remoteInfo = "ios-swift-harness";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBB703DC1E414F88003EAC93 /* ios-swift-harness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-swift-harness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB703DF1E414F88003EAC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBB703E11E414F88003EAC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBB703E41E414F88003EAC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBB703E61E414F88003EAC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB703E91E414F88003EAC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB703EB1E414F88003EAC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB703F01E414F88003EAC93 /* ios-swift-harnessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-swift-harnessTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB703F41E414F88003EAC93 /* ios_swift_harnessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_swift_harnessTests.swift; sourceTree = "<group>"; };
+		DBB703F61E414F88003EAC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB703D91E414F88003EAC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB703ED1E414F88003EAC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB703D31E414F88003EAC93 = {
+			isa = PBXGroup;
+			children = (
+				DBB703DE1E414F88003EAC93 /* ios-swift-harness */,
+				DBB703F31E414F88003EAC93 /* ios-swift-harnessTests */,
+				DBB703DD1E414F88003EAC93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB703DD1E414F88003EAC93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB703DC1E414F88003EAC93 /* ios-swift-harness.app */,
+				DBB703F01E414F88003EAC93 /* ios-swift-harnessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB703DE1E414F88003EAC93 /* ios-swift-harness */ = {
+			isa = PBXGroup;
+			children = (
+				DBB703DF1E414F88003EAC93 /* AppDelegate.swift */,
+				DBB703E11E414F88003EAC93 /* ViewController.swift */,
+				DBB703E31E414F88003EAC93 /* Main.storyboard */,
+				DBB703E61E414F88003EAC93 /* Assets.xcassets */,
+				DBB703E81E414F88003EAC93 /* LaunchScreen.storyboard */,
+				DBB703EB1E414F88003EAC93 /* Info.plist */,
+			);
+			path = "ios-swift-harness";
+			sourceTree = "<group>";
+		};
+		DBB703F31E414F88003EAC93 /* ios-swift-harnessTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB703F41E414F88003EAC93 /* ios_swift_harnessTests.swift */,
+				DBB703F61E414F88003EAC93 /* Info.plist */,
+			);
+			path = "ios-swift-harnessTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB703DB1E414F88003EAC93 /* ios-swift-harness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB703F91E414F88003EAC93 /* Build configuration list for PBXNativeTarget "ios-swift-harness" */;
+			buildPhases = (
+				DBB703D81E414F88003EAC93 /* Sources */,
+				DBB703D91E414F88003EAC93 /* Frameworks */,
+				DBB703DA1E414F88003EAC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-swift-harness";
+			productName = "ios-swift-harness";
+			productReference = DBB703DC1E414F88003EAC93 /* ios-swift-harness.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB703EF1E414F88003EAC93 /* ios-swift-harnessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB703FC1E414F88003EAC93 /* Build configuration list for PBXNativeTarget "ios-swift-harnessTests" */;
+			buildPhases = (
+				DBB703EC1E414F88003EAC93 /* Sources */,
+				DBB703ED1E414F88003EAC93 /* Frameworks */,
+				DBB703EE1E414F88003EAC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB703F21E414F88003EAC93 /* PBXTargetDependency */,
+			);
+			name = "ios-swift-harnessTests";
+			productName = "ios-swift-harnessTests";
+			productReference = DBB703F01E414F88003EAC93 /* ios-swift-harnessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB703D41E414F88003EAC93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mapzen;
+				TargetAttributes = {
+					DBB703DB1E414F88003EAC93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LTQC954SPQ;
+						ProvisioningStyle = Automatic;
+					};
+					DBB703EF1E414F88003EAC93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = LTQC954SPQ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DBB703DB1E414F88003EAC93;
+					};
+				};
+			};
+			buildConfigurationList = DBB703D71E414F88003EAC93 /* Build configuration list for PBXProject "ios-swift-harness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB703D31E414F88003EAC93;
+			productRefGroup = DBB703DD1E414F88003EAC93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB703DB1E414F88003EAC93 /* ios-swift-harness */,
+				DBB703EF1E414F88003EAC93 /* ios-swift-harnessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB703DA1E414F88003EAC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB703EA1E414F88003EAC93 /* LaunchScreen.storyboard in Resources */,
+				DBB703E71E414F88003EAC93 /* Assets.xcassets in Resources */,
+				DBB703E51E414F88003EAC93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB703EE1E414F88003EAC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB703D81E414F88003EAC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB703E21E414F88003EAC93 /* ViewController.swift in Sources */,
+				DBB703E01E414F88003EAC93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB703EC1E414F88003EAC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB703F51E414F88003EAC93 /* ios_swift_harnessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBB703F21E414F88003EAC93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB703DB1E414F88003EAC93 /* ios-swift-harness */;
+			targetProxy = DBB703F11E414F88003EAC93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBB703E31E414F88003EAC93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB703E41E414F88003EAC93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBB703E81E414F88003EAC93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB703E91E414F88003EAC93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB703F71E414F88003EAC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBB703F81E414F88003EAC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB703FA1E414F88003EAC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LTQC954SPQ;
+				INFOPLIST_FILE = "ios-swift-harness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mapzen.ios-swift-harness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DBB703FB1E414F88003EAC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LTQC954SPQ;
+				INFOPLIST_FILE = "ios-swift-harness/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mapzen.ios-swift-harness";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DBB703FD1E414F88003EAC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LTQC954SPQ;
+				INFOPLIST_FILE = "ios-swift-harnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mapzen.ios-swift-harnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-swift-harness.app/ios-swift-harness";
+			};
+			name = Debug;
+		};
+		DBB703FE1E414F88003EAC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LTQC954SPQ;
+				INFOPLIST_FILE = "ios-swift-harnessTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mapzen.ios-swift-harnessTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-swift-harness.app/ios-swift-harness";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB703D71E414F88003EAC93 /* Build configuration list for PBXProject "ios-swift-harness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB703F71E414F88003EAC93 /* Debug */,
+				DBB703F81E414F88003EAC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB703F91E414F88003EAC93 /* Build configuration list for PBXNativeTarget "ios-swift-harness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB703FA1E414F88003EAC93 /* Debug */,
+				DBB703FB1E414F88003EAC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DBB703FC1E414F88003EAC93 /* Build configuration list for PBXNativeTarget "ios-swift-harnessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB703FD1E414F88003EAC93 /* Debug */,
+				DBB703FE1E414F88003EAC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB703D41E414F88003EAC93 /* Project object */;
+}
