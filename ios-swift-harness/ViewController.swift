@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Mapzen_ios_sdk
 
-class ViewController: UIViewController {
+class ViewController: MZMapViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+//    let _ = try? loadScene("Frameworks/Mapzen_ios_sdk.framework/scenes/scene.yaml")
+    try? loadStyle(.bubbleWrap)
   }
 
   override func didReceiveMemoryWarning() {
