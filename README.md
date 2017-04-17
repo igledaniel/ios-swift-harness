@@ -1,0 +1,2 @@
+# Swift Harness App
+This app is one of the harness apps we use to internally test importing of the SDK correctly into 3rd party applications. We update it semi-frequently to try to keep it in line with developments in the main repo (github.com/mapzen/ios).
