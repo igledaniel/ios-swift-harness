@@ -7,7 +7,7 @@ target 'ios-swift-harness' do
 
   # Pods for ios-swift-harness
 
-  pod "Mapzen-ios-sdk", :git => 'https://github.com/mapzen/ios.git', :branch => 'master'
+  pod "Mapzen-ios-sdk", :git => 'https://github.com/mapzen/ios.git', :branch => 'master', :submodules => true
   #pod "Mapzen-ios-sdk", :path => '../ios-sdk/'
 
   target 'ios-swift-harnessTests' do

@@ -17,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
-    MapzenManager.sharedManager.apiKey = "mapzen-2qQR7SX"
+    let apiKey = "INSERT_API_KEY_HERE"
+    assert(apiKey.contains("mapzen-"), "API Key is not set. Nothing will work without it!")
+    MapzenManager.sharedManager.apiKey = apiKey
     return true
   }
 
