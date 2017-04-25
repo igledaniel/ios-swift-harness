@@ -13,15 +13,11 @@ class ViewController: MZMapViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-//    let _ = try? loadScene("Frameworks/Mapzen_ios_sdk.framework/scenes/scene.yaml")
-    try? loadStyle(.bubbleWrap)
+    try? loadStyleAsync(.bubbleWrap, onStyleLoaded: { [unowned self] (mapStyle) in
+      self.enableLocationLayer(true)
+      self.showFindMeButon(true)
+    })
   }
-
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
-  }
-
 
 }
 

@@ -197,7 +197,7 @@
 				TargetAttributes = {
 					DBB703DB1E414F88003EAC93 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = LTQC954SPQ;
+						DevelopmentTeam = WPU26462BZ;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -488,7 +488,7 @@
 			baseConfigurationReference = F268261403292E0E9685992D /* Pods-ios-swift-harness.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LTQC954SPQ;
+				DEVELOPMENT_TEAM = WPU26462BZ;
 				INFOPLIST_FILE = "ios-swift-harness/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mapzen.ios-swift-harness";
@@ -502,7 +502,7 @@
 			baseConfigurationReference = 59875C221AF9BFB3941586E8 /* Pods-ios-swift-harness.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = LTQC954SPQ;
+				DEVELOPMENT_TEAM = WPU26462BZ;
 				INFOPLIST_FILE = "ios-swift-harness/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mapzen.ios-swift-harness";

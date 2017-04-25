@@ -71,6 +71,13 @@
             ReferencedContainer = "container:ios-swift-harness.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "MAPZEN_API_KEY"
+            value = "mapzen-MxD3a8w"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
